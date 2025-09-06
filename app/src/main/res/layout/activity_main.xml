@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metal Detector"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Magnetic Field Reading -->
+    <TextView
+        android:id="@+id/magneticFieldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magnetic Field Strength: 0 µT"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_centerInParent="true"/>
+
+    <!-- Start/Stop Button -->
+    <Button
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Detection"
+        android:layout_below="@id/magneticFieldText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+</RelativeLayout>
