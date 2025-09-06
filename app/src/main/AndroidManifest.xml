@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.metaldetector">
 
-    <!-- vibration permission -->
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -11,13 +11,13 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.DeviceDefault">
         
-        <activity
-            android:name=".MainActivity"
+        <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+    </application>
+</manifest>
